@@ -14,6 +14,7 @@ About
 
 This is the Linter for CSS files in the
 [Gemstone JavaScript Technology Stack](http://gemstonejs.com).
+It is based on [PostCSS](http://postcss.org/) and [StyleLint](https://stylelint.io/).
 
 Copyright &amp; License
 -----------------------
