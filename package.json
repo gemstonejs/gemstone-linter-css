@@ -37,7 +37,7 @@
         "gemstone-config-stylelint":      "~0.9.3"
     },
     "engines": {
-        "node":                           ">=6.0.0"
+        "node":                           ">=7.6.0"
     },
     "scripts": {
         "prepublish": "eslint --config eslint.yaml gemstone-linter-css.js"
