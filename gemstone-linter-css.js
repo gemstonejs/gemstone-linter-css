@@ -6,7 +6,7 @@
 
 /*  load external requirements  */
 const path                    = require("path")
-const fs                      = require("fs-promise")
+const fs                      = require("mz/fs")
 const clone                   = require("clone")
 const PostCSS                 = require("postcss")
 const PostCSSSCSS             = require("postcss-scss")
