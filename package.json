@@ -23,24 +23,24 @@
         "eslint-config-standard":         "~10.2.1",
         "eslint-plugin-standard":         "~3.0.1",
         "eslint-plugin-promise":          "~3.5.0",
-        "eslint-plugin-import":           "~2.6.1",
+        "eslint-plugin-import":           "~2.7.0",
         "eslint-plugin-node":             "~5.1.0",
         "babel-eslint":                   "~7.2.3"
     },
     "dependencies" : {
         "mz":                             "~2.6.0",
         "clone":                          "~2.1.1",
-        "postcss":                        "~5.2.17",
-        "postcss-scss":                   "~0.4.1",
-        "postcss-reporter":               "~3.0.0",
+        "postcss":                        "~6.0.6",
+        "postcss-scss":                   "~1.0.2",
+        "postcss-reporter":               "~4.0.0",
         "stylelint":                      "~7.12.0",
-        "gemstone-config-stylelint":      "~0.9.8"
+        "gemstone-config-stylelint":      "~0.9.9"
     },
     "engines": {
         "node":                           ">=7.6.0"
     },
     "scripts": {
-        "prepublish": "eslint --config eslint.yaml gemstone-linter-css.js"
+        "prepublishOnly": "eslint --config eslint.yaml gemstone-linter-css.js"
     },
     "main": "./gemstone-linter-css.js"
 }
