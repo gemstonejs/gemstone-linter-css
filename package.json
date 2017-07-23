@@ -19,22 +19,22 @@
         "url":  "http://github.com/gemstone/gemstone-linter-css/issues"
     },
     "devDependencies": {
-        "eslint":                         "~4.2.0",
+        "eslint":                         "~4.3.0",
         "eslint-config-standard":         "~10.2.1",
         "eslint-plugin-standard":         "~3.0.1",
         "eslint-plugin-promise":          "~3.5.0",
         "eslint-plugin-import":           "~2.7.0",
-        "eslint-plugin-node":             "~5.1.0",
+        "eslint-plugin-node":             "~5.1.1",
         "babel-eslint":                   "~7.2.3"
     },
     "dependencies" : {
         "mz":                             "~2.6.0",
         "clone":                          "~2.1.1",
-        "postcss":                        "~6.0.6",
+        "postcss":                        "~6.0.8",
         "postcss-scss":                   "~1.0.2",
         "postcss-reporter":               "~4.0.0",
-        "stylelint":                      "~7.13.0",
-        "gemstone-config-stylelint":      "~0.9.10"
+        "stylelint":                      "~8.0.0",
+        "gemstone-config-stylelint":      "~0.9.12"
     },
     "engines": {
         "node":                           ">=7.6.0"
