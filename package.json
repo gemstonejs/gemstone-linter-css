@@ -30,11 +30,11 @@
     "dependencies" : {
         "mz":                             "~2.7.0",
         "clone":                          "~2.1.1",
-        "postcss":                        "~6.0.14",
-        "postcss-scss":                   "~1.0.2",
+        "postcss":                        "~6.0.16",
+        "postcss-scss":                   "~1.0.3",
         "postcss-reporter":               "~5.0.0",
         "stylelint":                      "~8.4.0",
-        "gemstone-config-stylelint":      "~0.9.15"
+        "gemstone-config-stylelint":      "~0.9.16"
     },
     "engines": {
         "node":                           ">=7.6.0"
