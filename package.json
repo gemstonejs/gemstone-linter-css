@@ -21,7 +21,7 @@
     "devDependencies": {
         "eslint":                         "4.19.1",
         "eslint-config-standard":         "11.0.0",
-        "eslint-plugin-standard":         "3.0.1",
+        "eslint-plugin-standard":         "3.1.0",
         "eslint-plugin-promise":          "3.7.0",
         "eslint-plugin-import":           "2.11.0",
         "eslint-plugin-node":             "6.0.1",
@@ -30,11 +30,11 @@
     "dependencies" : {
         "mz":                             "2.7.0",
         "clone":                          "2.1.1",
-        "postcss":                        "6.0.21",
+        "postcss":                        "6.0.22",
         "postcss-scss":                   "1.0.5",
         "postcss-reporter":               "5.0.0",
         "stylelint":                      "9.2.0",
-        "gemstone-config-stylelint":      "0.9.20"
+        "gemstone-config-stylelint":      "0.9.21"
     },
     "engines": {
         "node":                           ">=7.6.0"
