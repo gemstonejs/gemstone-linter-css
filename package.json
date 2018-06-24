@@ -25,16 +25,16 @@
         "eslint-plugin-promise":          "3.8.0",
         "eslint-plugin-import":           "2.12.0",
         "eslint-plugin-node":             "6.0.1",
-        "babel-eslint":                   "8.2.3"
+        "babel-eslint":                   "8.2.5"
     },
     "dependencies" : {
         "mz":                             "2.7.0",
         "clone":                          "2.1.1",
-        "postcss":                        "6.0.22",
-        "postcss-scss":                   "1.0.5",
+        "postcss":                        "6.0.23",
+        "postcss-scss":                   "1.0.6",
         "postcss-reporter":               "5.0.0",
-        "stylelint":                      "9.2.1",
-        "gemstone-config-stylelint":      "0.9.23"
+        "stylelint":                      "9.3.0",
+        "gemstone-config-stylelint":      "0.9.24"
     },
     "engines": {
         "node":                           ">=7.6.0"
