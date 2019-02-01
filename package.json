@@ -34,7 +34,7 @@
         "postcss-scss":                   "2.0.0",
         "postcss-reporter":               "6.0.1",
         "stylelint":                      "9.10.1",
-        "gemstone-config-stylelint":      "0.9.31"
+        "gemstone-config-stylelint":      "0.9.32"
     },
     "engines": {
         "node":                           ">=8.0.0"
