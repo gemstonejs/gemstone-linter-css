@@ -26,18 +26,18 @@ module.exports = async function (filenames, opts = {}, report = { sources: {}, f
             opts.progress(i / filenames.length, `linting CSS: ${filenames[i]}`)
 
         /*  read source code  */
-        let source = await fs.readFile(filenames[i], "utf8")
+        const source = await fs.readFile(filenames[i], "utf8")
 
         /*  determine name of source  */
-        let name = path.relative(process.cwd(), filenames[i])
+        const name = path.relative(process.cwd(), filenames[i])
 
         /*  determine StyleLint configuration  */
-        let config = clone(GemstoneStylelintConfig)
+        const config = clone(GemstoneStylelintConfig)
         if (typeof opts.rules === "object")
             Object.assign(config.rules, opts.rules)
 
         /*  lint CSS via PostCSS/SCSS/StyleLint  */
-        let lintResult = await PostCSS([
+        const lintResult = await PostCSS([
             StyleLint({ config: config })
         ]).process(source, {
             from:   name,
@@ -81,7 +81,7 @@ module.exports = async function (filenames, opts = {}, report = { sources: {}, f
             lintResult.messages.forEach((message) => {
                 let msg = message.text
                 let ruleId = "unknown"
-                let m = msg.match(/^(.+)\s*\((.+)\)$/)
+                const m = msg.match(/^(.+)\s*\((.+)\)$/)
                 if (m !== null) {
                     msg    = m[1]
                     ruleId = m[2]
